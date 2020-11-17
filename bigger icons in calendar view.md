@@ -1,4 +1,4 @@
-# bigger icons in calendar view
+# Bigger icons in calendar view
 
 **last tested/working:** Nov 6, 2020 3:46 PM
 
