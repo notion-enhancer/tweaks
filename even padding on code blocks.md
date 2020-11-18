@@ -1,10 +1,10 @@
 # Even padding on code blocks
 
-**last tested/working:** Nov 7, 2020
+**last tested/working:** Nov 18, 2020
 
 **author(s):** [@fabiosangregorio](https://github.com/fabiosangregorio)
 
-> Top and bottom paddings are different with respect to left and right in code blocks. This tweak reduces the top and bottom padding to match the left and ritght ones.
+> Top and bottom paddings are different with respect to left and right in code blocks. This tweak reduces the top and bottom padding to match the left and right ones.
 
 _before tweak_
 
@@ -19,7 +19,10 @@ _after tweak_
 ```css
 /* ========== EVEN PADDING ON CODE BLOCKS ========== */
 .notion-code-block.line-numbers > div {
-  padding-top: 18px !important;
-  padding-bottom: 20px !important;
+  padding-top: 43px !important;
+  padding-bottom: 14px !important;
+}
+.notion-code-block:not(.line-numbers) .line-numbers + div + div {
+    top: 13px !important;
 }
 ```
