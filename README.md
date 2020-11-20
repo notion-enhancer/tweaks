@@ -15,3 +15,4 @@ documentation](https://github.com/notion-enhancer/notion-enhancer/blob/master/TW
 * [Minify breadcrumbs and topbar buttons](minify%20breadcrumbs%20and%20topbar%20buttons.md)
 * [Remove arrows on linked pages and databases](remove%20arrows%20on%20linked%20pages%20and%20databases.md)
 * [Smaller page icons](smaller%20page%20icons.md)
+* [Remove "Type '/' for commands" hint](remove%20type%20for%20commands.md)
