@@ -19,8 +19,7 @@
 
 ```css
 /* ========== HIDE '+ NEW' BOARD ROW ========== */
-.notion-board-group
-  [style='user-select: none; transition: background 120ms ease-in 0s; cursor: pointer; display: inline-flex; align-items: center; flex-shrink: 0; white-space: nowrap; height: 32px; border-radius: 3px; font-size: 14px; line-height: 1.2; min-width: 0px; padding-left: 6px; padding-right: 8px; color: rgba(255, 255, 255, 0.4); width: 100%;'] {
-  display: none !important;
+.notion-board-group > div[role='button'][tabindex='0'] {
+    display: none !important;
 }
 ```
