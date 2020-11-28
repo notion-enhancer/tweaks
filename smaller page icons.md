@@ -1,18 +1,21 @@
 # Smaller page icons
 
+> Removes unused space on top of pages and makes the page icon smaller (similar to database page icons).
+
 **last tested/working:** Nov 19, 2020
 
 **author(s):** [@CloudHill](https://github.com/CloudHill)
 
-> Removes unused space on top of pages and makes the page icon smaller (similar to database page icons).
-
-_before tweak_
-
-![before tweak](https://cdn.discordapp.com/attachments/767863068617080902/774277441501790229/unknown.png)
-
-_after tweak_
-
-![after tweak](https://cdn.discordapp.com/attachments/767863068617080902/774277459377913866/unknown.png)
+<table border="0">
+ <tr>
+    <td><i>before tweak</i></td>
+    <td><i>after tweak</i></td>
+ </tr>
+ <tr>
+    <td><img alt="before tweak" src="https://cdn.discordapp.com/attachments/767863068617080902/774277441501790229/unknown.png"></td>
+    <td><img alt="after tweak" src="https://cdn.discordapp.com/attachments/767863068617080902/774277459377913866/unknown.png"></td>
+ </tr>
+</table>
 
 ## css
 
