@@ -21,7 +21,7 @@ or [try a free short course like the one on codecademy](https://www.codecademy.c
 
 **the following tweaks were previously on this page and have since been moved to the**
 **more stable and theme-compatible css variable system described in the**
-**[developer documentation](DOCUMENTATION.md#variable-theming):**
+**[developer documentation](https://github.com/notion-enhancer/notion-enhancer/blob/dev/DOCUMENTATION.md#variablescss):**
 
 - colour theming
 - custom fonts and font sizes
