@@ -4,13 +4,16 @@
 
 **author(s):** [@fabiosangregorio](https://github.com/fabiosangregorio)
 
-_before tweak_
-
-![before tweak](https://cdn.discordapp.com/attachments/767863068617080902/774259408817487882/unknown.png)
-
-_after tweak_
-
-![after tweak](https://cdn.discordapp.com/attachments/767863068617080902/774259527054786580/unknown.png)
+<table border="0">
+ <tr>
+    <td><i>before tweak</i></td>
+    <td><i>after tweak</i></td>
+ </tr>
+ <tr>
+    <td><img alt="before tweak" src="https://cdn.discordapp.com/attachments/767863068617080902/774259408817487882/unknown.png"></td>
+    <td><img alt="after tweak" src="https://cdn.discordapp.com/attachments/767863068617080902/774259527054786580/unknown.png"></td>
+ </tr>
+</table>
 
 ## css
 

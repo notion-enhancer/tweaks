@@ -1,18 +1,23 @@
 # Minify breadcrumbs and topbar buttons
 
+> Removes unused space on top of pages and makes the page icon smaller (similar to database page icons).
+
 **last tested/working:** Nov 19, 2020
 
 **author(s):** [@CloudHill](https://github.com/CloudHill)
 
-> Removes unused space on top of pages and makes the page icon smaller (similar to database page icons).
 
-_before tweak_
+<table border="0">
+ <tr>
+    <td><i>before tweak</i></td>
+    <td><i>after tweak</i></td>
+ </tr>
+ <tr>
+    <td><img alt="before tweak" src="https://cdn.discordapp.com/attachments/767863068617080902/772752921355092008/unknown.png"></td>
+    <td><img alt="after tweak" src="https://cdn.discordapp.com/attachments/767863068617080902/772753008458596373/unknown.png"></td>
+ </tr>
+</table>
 
-![before tweak](https://cdn.discordapp.com/attachments/767863068617080902/772752921355092008/unknown.png)
-
-_after tweak_
-
-![after tweak](https://cdn.discordapp.com/attachments/767863068617080902/772753008458596373/unknown.png)
 
 ## css
 
