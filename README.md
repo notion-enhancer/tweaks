@@ -56,3 +56,4 @@ if you are attempting to customise the web client, the css previously used for t
 * [Smaller table column header icons](tweaks/smaller%20table%20column%20header%20icons.md)
 * [Sticky table/list row](tweaks/sticky%20table%20list%20row.md)
 * [Table columns below 100px](tweaks/table%20columns%20below%20100px.md)
+* [Hide plus table column](tweaks/hide%20plus%20table%20column.md)
