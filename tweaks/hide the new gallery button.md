@@ -1,7 +1,7 @@
 # Hide the '+ new' gallery button
 
 
-**last tested/working:** Oct 1, 2020
+**last tested/working:** Sept 13, 2021
 
 **author(s):** [@dragonwocky](https://github.com/dragonwocky)
 
@@ -22,10 +22,12 @@
 /* ========== HIDE THE '+ NEW' GALLERY BUTTON ========== */
 .notion-gallery-view
   .notion-selectable.notion-collection_view-block
-  > [role='button'],
+  div
+  > [role="button"],
 .notion-gallery-view
   .notion-selectable.notion-collection_view_page-block
-  > [role='button'] {
+  div
+  > [role="button"] {
   display: none !important;
 }
 ```
