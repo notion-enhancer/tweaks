@@ -23,11 +23,11 @@
 .notion-gallery-view
   .notion-selectable.notion-collection_view-block
   div
-  > [role="button"],
+  + [role="button"],
 .notion-gallery-view
   .notion-selectable.notion-collection_view_page-block
   div
-  > [role="button"] {
+  + [role="button"] {
   display: none !important;
 }
 ```
