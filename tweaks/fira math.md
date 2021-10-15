@@ -9,7 +9,7 @@
 ```css
 @import url("https://firamath.github.io/css/firamath.css");
 
-.katex {
+.katex * {
   font-family: "Fira Math" !important;
 }
 ```
