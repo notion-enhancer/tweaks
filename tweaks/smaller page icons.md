@@ -21,38 +21,40 @@
 
 ```css
 /* ========== SMALLER PAGE ICONS ========== */
-
 /* Place icon relative to the title container */
-.notion-scroller[style*="display: flex; flex-direction: column"] > :nth-child(2) > :first-child:not([style *= "display: flex"]) {
+.notion-scroller[style*="display: flex; flex-direction: column"] > :nth-child(2):not([contenteditable*="false"]) > :first-child {
     padding-top: 30px;
     position: relative;
 }
 
 /* Set icon size */
-.notion-scroller[style*="display: flex; flex-direction: column"] > :nth-child(2) > :first-child:not([style *= "display: flex"]) > :first-child .notion-record-icon[aria-disabled="false"] {
+.notion-scroller[style*="display: flex; flex-direction: column"] > :nth-child(2):not([contenteditable*="false"]) > :first-child > :first-child .notion-record-icon[style *= "height: 140px"],
+.notion-scroller[style*="display: flex; flex-direction: column"] > :nth-child(2):not([contenteditable*="false"]) > :first-child > :first-child .notion-record-icon[style *= "height: 78px"] {
     width: 38px !important;
     height: 38px !important;
 }
 
-.notion-scroller[style*="display: flex; flex-direction: column"] > :nth-child(2) > :first-child:not([style *= "display: flex"]) > :first-child .notion-record-icon[aria-disabled="false"] * {
+.notion-scroller[style*="display: flex; flex-direction: column"] > :nth-child(2):not([contenteditable*="false"]) > :first-child > :first-child .notion-record-icon[style *= "height: 140px"] *, .notion-scroller[style*="display: flex; flex-direction: column"] > :nth-child(2):not([contenteditable*="false"]) > :first-child > :first-child .notion-record-icon[style *= "height: 78px"] * {
     width: 100% !important;
     height: 100% !important;
 }
 
 /* Icon placement */
-.notion-scroller[style*="display: flex; flex-direction: column"] > :nth-child(2) > :first-child:not([style *= "display: flex"]) > :first-child .notion-record-icon[aria-disabled="false"] {
+.notion-scroller[style*="display: flex; flex-direction: column"] > :nth-child(2):not([contenteditable*="false"]) > :first-child > :first-child .notion-record-icon[style *= "height: 140px"],
+.notion-scroller[style*="display: flex; flex-direction: column"] > :nth-child(2):not([contenteditable*="false"]) > :first-child > :first-child .notion-record-icon[style *= "height: 78px"] {
     margin-top: 8px !important;
     margin-right: 8px !important;
     float: left;
 }
 
-.notion-scroller[style*="display: flex; flex-direction: column"] > :nth-child(2) > :first-child:not([style *= "display: flex"]) > :first-child .notion-page-controls {
-  position:absolute !important;
-  top: -5px;
+
+.notion-scroller[style*="display: flex; flex-direction: column"] > :nth-child(2):not([contenteditable*="false"]) > :first-child > :first-child .notion-page-controls {
+    position: absolute !important;
+    top: -5px;
 }
 
 /* Emoji icon */
-.notion-scroller[style*="display: flex; flex-direction: column"] > :nth-child(2) > :first-child:not([style *= "display: flex"]) > :first-child .notion-record-icon [style*="font-size: 78px"] {
+.notion-scroller[style*="display: flex; flex-direction: column"] > :nth-child(2):not([contenteditable*="false"]) > :first-child > :first-child .notion-record-icon [style*="font-size: 78px"] {
     font-size: 38px !important;
 }
 
@@ -65,4 +67,5 @@
 .notion-page-controls[style*="margin-top: 32px"] {
     margin-top: 8px !important;
 }
+
 ```
