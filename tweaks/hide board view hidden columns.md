@@ -1,6 +1,6 @@
 # Hide board view hidden columns
 
-**last tested/working:** Oct 1, 2020
+**last tested/working:** Oct 19, 2021
 
 **author(s):** [@dragonwocky](https://github.com/dragonwocky)
 
@@ -19,8 +19,8 @@
 
 ```css
 /* ========== HIDE BOARD VIEW HIDDEN COLUMNS ========== */
-.notion-board-view > [data-block-id] > div:nth-last-child(2),
-.notion-board-view > [data-block-id] > div:first-child > div:nth-last-child(2) {
+.notion-board-view > [data-block-id] > :first-child > :last-child,
+.notion-board-view > [data-block-id] > :last-child {
   display: none !important;
 }
 ```
