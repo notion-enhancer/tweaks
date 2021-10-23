@@ -11,7 +11,7 @@
     <td><i>after tweak</i></td>
  </tr>
  <tr>
-    <td><img alt="before tweak" src="https://i.imgur.com/gOGZsbZ.png"></td>
+    <td><img alt="before tweak" src="https://github.com/dragonwocky/notion-enhancer/raw/b5043508d91df76f145f0f48c2c63d7dd1c27543/screenshots/discussion-default.jpg?raw=true"></td>
     <td><img alt="after tweak" src="https://i.imgur.com/8sXrj4Z.png"></td>
  </tr>
 </table>
