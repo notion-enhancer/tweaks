@@ -2,9 +2,9 @@
 
 > Remove "Type '/' for commands"
 
-**last tested/working:** Nov 19, 2020
+**last tested/working:** Oct 5, 2021
 
-**author(s):** [@Adambl4](https://github.com/Adambl4)
+**author(s):** [@Adambl4](https://github.com/Adambl4), [@dragonwocky](https://github.com/dragonwocky)
 
 <table border="0">
  <tr>
@@ -21,8 +21,8 @@
 ## css
 
 ```css
-/* ========== REMOVE TYPE FOR COMMANDS ========== */
-[contenteditable]:empty:before {
-  display: none !important;
+/* ========== REMOVE TYPE '/' FOR COMMANDS ========== */
+[contenteditable]:empty:after {
+  content: ' ' !important;
 }
 ```
