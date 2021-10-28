@@ -59,3 +59,6 @@ if you are attempting to customise the web client, the css previously used for t
 * [Hide plus table column](tweaks/hide%20plus%20table%20column.md)
 * [Hide callout icon](https://github.com/notion-enhancer/tweaks/blob/main/tweaks/hide%20callout%20icon.md)
 * [Hide new page button](https://github.com/notion-enhancer/tweaks/blob/main/tweaks/hide%20new%20page%20button.md)
+* [Fira Math](https://github.com/notion-enhancer/tweaks/blob/main/tweaks/fira%20math.md)
+* [Remove rounded edges of page icons in sidebar](https://github.com/notion-enhancer/tweaks/blob/main/tweaks/remove%20rounded%20edges%20of%20page%20icons%20in%20sidebar.md)
+* [Remove rounded edges of all images](https://github.com/notion-enhancer/tweaks/blob/main/tweaks/remove%20rounded%20edges%20of%20all%20images.md)
