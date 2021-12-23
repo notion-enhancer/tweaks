@@ -1,6 +1,8 @@
 # tweaks
 > a collection of user-submitted css/js tweaks for [notion-enhancer](https://github.com/notion-enhancer/notion-enhancer).
 
+**This repository has been archived in favour of the new tweaks page on https://notion-enhancer.github.io/**
+
 the enhancer comes with some built-in colour themes and layout improvements,
 but to get even more control over how the app looks you can use the file picker in the
 "custom inserts" module to inject your own javascript or css into it.
